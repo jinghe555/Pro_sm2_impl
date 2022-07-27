@@ -5,24 +5,24 @@ SM2 implementation
 # 完成人
 何静 
 # 项目流程
-##基础参数配置
+## 基础参数配置
 参考《SM2椭圆曲线公钥密码算法》进行参数配置
 ![image](https://user-images.githubusercontent.com/104714591/181164678-1dd98da2-da78-4afb-bd58-3099c06637c7.png)
-##密钥对生成
+## 密钥对生成
 ![image](https://user-images.githubusercontent.com/104714591/181164747-71cb8429-c1ac-43f3-985a-04aa1221df7f.png)
 ![image](https://user-images.githubusercontent.com/104714591/181164774-24484ba1-6566-45a0-b7e9-2a0205d3b6ea.png)
-##签名部分
-###预处理1(获得z值）
+## 签名部分
+### 预处理1(获得z值）
 ![image](https://user-images.githubusercontent.com/104714591/181164865-cb394e99-9997-46af-8266-57b610eb3d0c.png)
-###预处理2（获得hash值）
+### 预处理2（获得hash值）
 ![image](https://user-images.githubusercontent.com/104714591/181164925-621d9f61-3805-4298-8cf3-40f706e5b9a9.png)
-###生成签名
+### 生成签名
 ![image](https://user-images.githubusercontent.com/104714591/181164984-74005aa5-aae5-4e58-81af-e7520d75755c.png)
-###验证签名
+### 验证签名
 ![image](https://user-images.githubusercontent.com/104714591/181165031-024c6672-8494-4349-8346-f38456d54ed6.png)
-##加密部分
+## 加密部分
 ![image](https://user-images.githubusercontent.com/104714591/181165198-5396393b-a946-44c0-a13f-07571ed71c31.png)
-##解密部分
+## 解密部分
 ![image](https://user-images.githubusercontent.com/104714591/181165238-a6f298d9-f269-4d24-ae6f-d131ae167859.png)
 # 代码说明
 详见代码，注释十分详尽
