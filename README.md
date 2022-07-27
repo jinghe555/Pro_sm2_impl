@@ -28,7 +28,7 @@ SM2椭圆曲线公钥密码算法：我国自主知识产权的商用密码算�
 详见代码，注释十分详尽
 # 运行过程截图
 ![image](https://user-images.githubusercontent.com/104714591/181165383-4788e6a0-ab23-4e3d-b7de-6d6801618b2e.png)
-签名验证为true，加密之后的密文进行解密之后与代码中自设的明文对比相同，加解密成功
+签名验证为true，加密之后的密文进行解密之后获得的消息M与代码中自设的明文对比相同，加解密成功
 # 引用参考
 [1]http://www.gmbz.org.cn/main/viewfile/20180108023602687857.html
 [2]https://blog.csdn.net/u013137970/article/details/84573200?spm=1001.2101.3001.6661.1&utm_medium=distribute.pc_relevant_t0.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7Edefault-1-84573200-blog-120835704.pc_relevant_vip_default&depth_1-utm_source=distribute.pc_relevant_t0.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7Edefault-1-84573200-blog-120835704.pc_relevant_vip_default&utm_relevant_index=1
